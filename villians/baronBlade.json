@@ -64,21 +64,21 @@
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is immune to damage.",
-      "func": "damageReduction('bigBad',999)",
+      "func": "preventDamage('bigBad',999)",
       "HP": 5
     },
     {
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is immune to damage.",
-      "func": "damageReduction('bigBad',999)",
+      "func": "preventDamage('bigBad',999)",
       "HP": 5
     },
     {
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is immune to damage.",
-      "func": "damageReduction('bigBad',999)",
+      "func": "preventDamage('bigBad',999)",
       "HP": 5
     },
     {
@@ -103,19 +103,19 @@
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
-      "func": "damageReduction('bigBad', 1)"
+      "func": "preventDamage('bigBad', 1)"
     },
     {
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
-      "func": "damageReduction('bigBad', 1)"
+      "func": "preventDamage('bigBad', 1)"
     }, 
     {
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
-      "func": "damageReduction('bigBad', 1)"
+      "func": "preventDamage('bigBad', 1)"
     }, 
     {
       "name": "Flesh-Repair Nanites",
