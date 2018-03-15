@@ -7,19 +7,19 @@
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "dealDamage(1,3);"
+      "func": "dealDamage(target,3);"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "dealDamage(1,3);"
+      "func": "dealDamage(target,3);"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "dealDamage(1,3);"
+      "func": "dealDamage(target,3);"
     },
     {
       "name": "Hasten Doom",
