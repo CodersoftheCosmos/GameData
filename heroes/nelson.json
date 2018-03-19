@@ -2,7 +2,7 @@
 	"name": "Nelson",
 	"imageUrl": "https://media.licdn.com/dms/image/C4E03AQGzpigOe-N-4g/profile-displayphoto-shrink_800_800/0?e=1526500800&v=alpha&t=pGarRC7RjrDB6rUwRqDdpkcLF_3W1QWRJsxGWX-3cQk",
 	"hp": "32",
-	"deck": [
+	"cardDeck": [
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
@@ -150,5 +150,6 @@
 			"func": "drawCard(target, 1)",
 			"limited": "false"
 		}
-	]
+  ],
+  "charType": "hero"
 }
