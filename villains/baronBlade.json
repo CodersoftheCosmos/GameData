@@ -1,8 +1,8 @@
 {
   "name": "Baron Blade",
-  "imageUrl": "",
+  "imageUrl": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Vengeance%20Baron%20Blade.png",
   "hp": "",
-  "deck": [
+  "cardDeck": [
     {
       "name": "Backlash Field",
       "type": "Ongoing",
@@ -42,21 +42,21 @@
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villian turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
+      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
       "func": "dealDamage('mHero',this.HP);",
       "HP": 5
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villian turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
+      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
       "func": "dealDamage('mHero',this.HP);",
       "HP": 5
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villian turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
+      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
       "func": "dealDamage('mHero',this.HP);",
       "HP": 5
     },
@@ -134,12 +134,7 @@
       "type": "One-Shot",
       "desc": "Baron Blade regains 10 HP.",
       "func": "restoreHp('bigBad', 10)"
-    },  
-    {
-      "name": "Flesh-Repair Nanites",
-      "type": "One-Shot",
-      "desc": "Baron Blade regains 10 HP.",
-      "func": "restoreHp('bigBad', 10)"
     }
-  ]
+  ],
+  "charType": "villain"
 }
