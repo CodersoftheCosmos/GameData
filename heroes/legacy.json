@@ -1,154 +1,181 @@
+
 {
 	"name": "Legacy",
 	"imageUrl": "https://static1.squarespace.com/static/51d6f6b7e4b01c133f3462ff/t/550c6c8de4b08b70c4b5c32d/1426877582855/",
 	"hp": "32",
+	"maxHp": "32",
+	"power": "2",
+	"increaseDamage": "2",
+	"decreaseDamage": "0",
 	"cardDeck": [
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
-			"limited": "true"
+			"func": "preventDamage(1, target)",
+			"limited": "true",
+			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
-			"limited": "true"
+			"func": "preventDamage(1, target)",
+			"limited": "true",
+			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
-			"limited": "true"
+			"func": "preventDamage(1, target)",
+			"limited": "true",
+			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": "increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
 		},
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": "increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
+			
 		},	
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": "increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
 		},		
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
 			"func": "dealDamage(target, 3) drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
 			"func": "dealDamage(target, 3) drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
 			"func": "dealDamage(target, 3) drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
 		{
 			"name": "Motivational Charge",
 			"type": "Ongoing",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": "preventDamage(character, amount) restoreHp(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
 		},
 		{
 			"name": "Motivational Charge",
 			"type": "Ongoing",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": "preventDamage(character, amount) restoreHp(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
 		},
 		{
 			"name": "Motivational Charge",
 			"type": "Ongoing",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": "preventDamage(character, amount) restoreHp(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
 		},
 		{
 			"name": "Inspiring Presence",
 			"type": "Ongoing",
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": "restoreHp(target, 1) increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
 			"type": "Ongoing",
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": "restoreHp(target, 1) increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
 			"type": "Ongoing",
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": "restoreHp(target, 1) increaseDamage(target, 1)",
-			"limited": "true"
+			"limited": "true",
+			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": "dealDamage(target, 4)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": "dealDamage(target, 4)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": "dealDamage(target, 4)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each player draws a card",
 			"func": "drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each player draws a card",
 			"func": "drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each player draws a card",
 			"func": "drawCard(target, 1)",
-			"limited": "false"
+			"limited": "false",
+			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
 		}
 	],
 	"charType": "hero"
