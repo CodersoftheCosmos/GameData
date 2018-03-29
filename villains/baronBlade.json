@@ -10,37 +10,37 @@
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Living Force Field",
@@ -82,19 +82,19 @@
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Mobile Defense Platform",
@@ -118,19 +118,19 @@
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals the hero target with the lowest HP (H) damage. Baron Blade deals the hero target with the largest HP (H) + 2 damage.",
-      "func": "init.dealDamageBoth(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageBoth(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals the hero target with the lowest HP (H) damage. Baron Blade deals the hero target with the largest HP (H) + 2 damage.",
-      "func": "init.dealDamageBoth(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageBoth(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     },
     {
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals the hero target with the lowest HP (H) damage. Baron Blade deals the hero target with the largest HP (H) + 2 damage.",
-      "func": "init.dealDamageBoth(2, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamageBoth(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
     }
   ],
   "charType": "villain"
