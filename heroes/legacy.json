@@ -1,14 +1,18 @@
+
 {
 	"name": "Legacy",
 	"imageUrl": "https://static1.squarespace.com/static/51d6f6b7e4b01c133f3462ff/t/550c6c8de4b08b70c4b5c32d/1426877582855/",
 	"hp": "32",
+	"maxHp": "32",
 	"power": "2",
+	"increaseDamage": "2",
+	"decreaseDamage": "0",
 	"cardDeck": [
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
+			"func": "preventDamage(1, target)",
 			"limited": "true",
 			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
@@ -16,7 +20,7 @@
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
+			"func": "preventDamage(1, target)",
 			"limited": "true",
 			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
@@ -24,7 +28,7 @@
 			"name": "Fortitude",
 			"type": "Ongoing",
 			"desc": "Reduce damage dealt to Legacy by 1",
-			"func": "preventDamage(target, 1)",
+			"func": "preventDamage(1, target)",
 			"limited": "true",
 			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
 		},
