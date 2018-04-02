@@ -81,20 +81,20 @@
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the most HP.",
+      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the most HP.",
+      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
-      "desc": "At the end of the villain turn, this card deals the hero target with the most HP X damage where X is this card's current HP.",
-      "func": "init.dealDamageMaxHp(5, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the most HP.",
+      "func": "init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Mobile Defense Platform",
