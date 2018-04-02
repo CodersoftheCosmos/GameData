@@ -10,37 +10,37 @@
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals that target 3 damage.",
-      "func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)"
+      "func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage. Play the top card of the villain deck.",
-      "func": "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero, roomGame.player2.hero)"
+      "func": "init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"
     },
     {
       "name": "Living Force Field",

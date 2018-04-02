@@ -60,7 +60,7 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
-			"func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)",
+			"func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)",
 			"limited": "false",
 			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
@@ -68,16 +68,14 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
-			"func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)",
-			"limited": "false",
+			"func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)",			"limited": "false",
 			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
-			"func": "init.dealDamage(3, roomGame.player1.hero, roomGame.villain.villain)",
-			"limited": "false",
+			"func": "init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)",			"limited": "false",
 			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
 		},
 		{
@@ -132,7 +130,7 @@
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
-			"func": "init.dealDamage(4, roomGame.player1.hero, roomGame.villain.villain)",
+			"func": "init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)",
 			"limited": "false",
 			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
@@ -140,7 +138,7 @@
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
-			"func": "init.dealDamage(4, roomGame.player1.hero, roomGame.villain.villain)",
+			"func": "init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)",
 			"limited": "false",
 			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
@@ -148,7 +146,7 @@
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
 			"desc": "Legacy deals 4 damage to 1 target",
-			"func": "init.dealDamage(4, roomGame.player1.hero, roomGame.villain.villain)",
+			"func": "init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)",
 			"limited": "false",
 			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
 		},
@@ -172,7 +170,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each player draws a card",
-			"func": "drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)",
+			"func": ["drawCard(roomGame.player1.hero.hand", "roomGame.player2.hero.hand)"],
 			"limited": "false",
 			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
 		}
