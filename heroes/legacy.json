@@ -60,7 +60,7 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
@@ -68,14 +68,14 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
@@ -154,7 +154,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -162,7 +162,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -170,7 +170,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		}
