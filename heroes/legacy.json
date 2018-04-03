@@ -13,7 +13,7 @@
 			"desc": "Reduce damage dealt to Legacy by 1",
 			"func": ["init.preventDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
+			"photo": "https://i.imgur.com/IjtDC0G.jpg"
 		},
 		{
 			"name": "Fortitude",
@@ -21,7 +21,7 @@
 			"desc": "Reduce damage dealt to Legacy by 1",
 			"func": ["init.preventDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
+			"photo": "https://i.imgur.com/IjtDC0G.jpg"
 		},
 		{
 			"name": "Fortitude",
@@ -29,7 +29,7 @@
 			"desc": "Reduce damage dealt to Legacy by 1",
 			"func": ["init.preventDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://lh3.googleusercontent.com/jQr8VXKXxgOmyO5RJ2ZeXjSLNKmTtxnAcJK-5UeD1VTWrz-fjXX7eUgp-s0A76Ddcw=s256"
+			"photo": "https://i.imgur.com/IjtDC0G.jpg"
 		},
 		{
 			"name": "Surge of Strength",
@@ -37,7 +37,7 @@
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
+			"photo": "https://i.imgur.com/aYhuyTW.jpg"
 		},
 		{
 			"name": "Surge of Strength",
@@ -45,7 +45,7 @@
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
+			"photo": "https://i.imgur.com/aYhuyTW.jpg"
 			
 		},	
 		{
@@ -54,29 +54,29 @@
 			"desc": "Increase damage dealt by Legacy by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://pbs.twimg.com/profile_images/3621796970/e5758d4e1f399ff9cbbd2f02d2643f49.jpeg"
+			"photo": "https://i.imgur.com/aYhuyTW.jpg"
 		},		
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
+			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
 			"limited": "false",
-			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
+			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
+			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
-			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
+			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Legacy deals 1 target 3 damage\nDraw a card",
+			"desc": "Legacy deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player1.hero)", "init.drawCard(roomGame.player1.hero)"],
-			"photo": "https://lh3.googleusercontent.com/qH1ftGVYTKpXfX8GSYdO-ULNzdn2F__yHBWm9cFO-q22YI-mhqtpOd5YTU7bqKKiW4k=s256"
+			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -84,7 +84,7 @@
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 2 HP",
 			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
+			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -92,7 +92,7 @@
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
+			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -100,7 +100,7 @@
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw3ANyAuyab-rtbK3VF1Tk5BoIpEyWCMpDHPH22ZZa1tb-v6SzA"
+			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
@@ -108,7 +108,7 @@
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero, roomGame.player2.hero)", "init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
+			"photo": "https://i.imgur.com/xyafdxi.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
@@ -116,7 +116,7 @@
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero, roomGame.player2.hero)", "init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
+			"photo": "https://i.imgur.com/xyafdxi.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
@@ -124,7 +124,7 @@
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player1.hero, roomGame.player2.hero)", "init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://c-sf.smule.com/sf/s21/arr/b9/32/8b2fd122-81de-4d40-86d6-1a278d915401.jpg"
+			"photo": "https://i.imgur.com/xyafdxi.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -132,7 +132,7 @@
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "false",
-			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
+			"photo": "https://i.imgur.com/BonElk4.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -140,7 +140,7 @@
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "false",
-			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
+			"photo": "https://i.imgur.com/BonElk4.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -148,31 +148,31 @@
 			"desc": "Legacy deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "false",
-			"photo": "https://cdn6.aptoide.com/imgs/1/8/4/18447bb6d9927aa08102c4cfff640f64_icon.png?w=256"
+			"photo": "https://i.imgur.com/BonElk4.jpg"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
-			"desc": "Each player draws a card",
+			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
 			"limited": "false",
-			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
+			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
-			"desc": "Each player draws a card",
+			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
 			"limited": "false",
-			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
+			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
 		{
 			"name": "Bolster Allies",
 			"type": "One-Shot",
-			"desc": "Each player draws a card",
+			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player1.hero.hand, roomGame.player2.hero.hand)"],
 			"limited": "false",
-			"photo": "http://static.wixstatic.com/media/cf2a9f_e2a581f99d1a45ad966e6897fbde992f~mv2_d_1200_1200_s_2.jpg_256"
+			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		}
 	],
 	"charType": "hero"
