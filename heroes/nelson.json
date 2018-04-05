@@ -60,7 +60,7 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
@@ -68,43 +68,43 @@
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
-			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2.hero)"],
+			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Motivational Charge",
 			"type": "Ongoing",
 			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 2 HP",
-			"func": ["init.restoreHp(2, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 1 HP",
-			"func": ["init.restoreHp(2, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 1 HP",
-			"func": ["init.restoreHp(2, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero, roomGame.player1.hero)", "init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)"],
 			"limited": "true",
@@ -154,7 +154,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player2.hero.hand, roomGame.player1.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -162,7 +162,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player2.hero.hand, roomGame.player1.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -170,7 +170,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player2.hero.hand, roomGame.player1.hero.hand)"],
+			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		}
