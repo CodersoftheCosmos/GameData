@@ -80,25 +80,25 @@
 		},
 		{
 			"name": "Motivational Charge",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 2 HP",
-			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
-			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
 		{
 			"name": "Motivational Charge",
-			"type": "Ongoing",
+			"type": "One-Shot",
 			"desc": "Legacy deals 2 damage to 1 target\nEach hero target regains 1 HP",
-			"func": ["init.restoreHp(2, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
+			"func": ["init.restoreHp(1, roomGame.player1.hero, roomGame.player2.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player1.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
 		},
@@ -154,7 +154,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
+			"func": ["init.drawCard(roomGame.player1, roomGame.player2)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -162,7 +162,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
+			"func": ["init.drawCard(roomGame.player1, roomGame.player2)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		},
@@ -170,7 +170,7 @@
 			"name": "Bolster Allies",
 			"type": "One-Shot",
 			"desc": "Each hero draws a card",
-			"func": ["init.drawCard(roomGame.player1.hand, roomGame.player2.hand)"],
+			"func": ["init.drawCard(roomGame.player1, roomGame.player2)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/KNUZDLU.jpg"
 		}
