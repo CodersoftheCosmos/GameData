@@ -3,9 +3,9 @@
 	"imageUrl": "https://media.licdn.com/dms/image/C4E03AQGzpigOe-N-4g/profile-displayphoto-shrink_800_800/0?e=1526500800&v=alpha&t=pGarRC7RjrDB6rUwRqDdpkcLF_3W1QWRJsxGWX-3cQk",
 	"hp": "40",
 	"maxHp": "40",
-	"increaseDamage": "1",
-	"decreaseDamage": "0",
-	"power": "1",
+	"increaseDamage": "0",
+	"decreaseDamage": "2",
+	"power": "All my skins are crispy (+2 to Defense Bonus)",
 	"cardDeck": [
 		{
 			"name": "Fortitude",
