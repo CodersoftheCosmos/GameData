@@ -1,5 +1,5 @@
 {
-	"name": "Nelson",
+	"name": "Dr. N",
 	"imageUrl": "https://media.licdn.com/dms/image/C4E03AQGzpigOe-N-4g/profile-displayphoto-shrink_800_800/0?e=1526500800&v=alpha&t=pGarRC7RjrDB6rUwRqDdpkcLF_3W1QWRJsxGWX-3cQk",
 	"hp": "40",
 	"maxHp": "40",
@@ -10,7 +10,7 @@
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
-			"desc": "Reduce damage dealt to Nelson by 1",
+			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/IjtDC0G.jpg"
@@ -18,7 +18,7 @@
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
-			"desc": "Reduce damage dealt to Nelson by 1",
+			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/IjtDC0G.jpg"
@@ -26,7 +26,7 @@
 		{
 			"name": "Fortitude",
 			"type": "Ongoing",
-			"desc": "Reduce damage dealt to Nelson by 1",
+			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/IjtDC0G.jpg"
@@ -34,7 +34,7 @@
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
-			"desc": "Increase damage dealt by Nelson by 1",
+			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/aYhuyTW.jpg"
@@ -42,7 +42,7 @@
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
-			"desc": "Increase damage dealt by Nelson by 1",
+			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/aYhuyTW.jpg"
@@ -51,7 +51,7 @@
 		{
 			"name": "Surge of Strength",
 			"type": "Ongoing",
-			"desc": "Increase damage dealt by Nelson by 1",
+			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/aYhuyTW.jpg"
@@ -59,7 +59,7 @@
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
+			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
@@ -67,21 +67,21 @@
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
+			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
-			"desc": "Nelson deals 3 damage to 1 target\nDraw a card",
+			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"photo": "https://i.imgur.com/5h0aDxt.jpg"
 		},
 		{
 			"name": "Motivational Charge",
 			"type": "Ongoing",
-			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 2 HP",
+			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 2 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
@@ -89,7 +89,7 @@
 		{
 			"name": "Motivational Charge",
 			"type": "One-Shot",
-			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 1 HP",
+			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
@@ -97,7 +97,7 @@
 		{
 			"name": "Motivational Charge",
 			"type": "One-Shot",
-			"desc": "Nelson deals 2 damage to 1 target\nEach hero target regains 1 HP",
+			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
 			"photo": "https://i.imgur.com/F1IW5xM.jpg"
@@ -129,7 +129,7 @@
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
-			"desc": "Nelson deals 4 damage to 1 target",
+			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/BonElk4.jpg"
@@ -137,7 +137,7 @@
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
-			"desc": "Nelson deals 4 damage to 1 target",
+			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/BonElk4.jpg"
@@ -145,7 +145,7 @@
 		{
 			"name": "Back-Fist Strike",
 			"type": "One-Shot",
-			"desc": "Nelson deals 4 damage to 1 target",
+			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
 			"photo": "https://i.imgur.com/BonElk4.jpg"
