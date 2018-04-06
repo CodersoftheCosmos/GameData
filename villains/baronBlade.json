@@ -12,147 +12,147 @@
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals 3 damage to target hero with the highest HP.",
       "func": ["init.reflectOn(roomGame.villain.villain)"],
-      "photo": "https://img00.deviantart.net/8b94/i/2015/119/6/f/baron_blade_by_sentinelsotm-d3glwjp.jpg"
+      "photo": "https://i.imgur.com/YAHfWM6.jpg"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals 3 damage to target hero with the highest HP.",
       "func": ["init.reflectOn(roomGame.villain.villain)"],
-      "photo": "https://img00.deviantart.net/8b94/i/2015/119/6/f/baron_blade_by_sentinelsotm-d3glwjp.jpg"
+      "photo": "https://i.imgur.com/YAHfWM6.jpg"
     },
     {
       "name": "Backlash Field",
       "type": "Ongoing",
       "desc": "Whenever Baron Blade is dealt damage, Baron Blade deals 3 damage to target hero with the highest HP.",
       "func": ["init.reflectOn(roomGame.villain.villain)"],
-      "photo": "https://img00.deviantart.net/8b94/i/2015/119/6/f/baron_blade_by_sentinelsotm-d3glwjp.jpg"
+      "photo": "https://i.imgur.com/YAHfWM6.jpg"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage, and heals himself for 4 HP.",
       "func": ["init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)", "init.restoreHp(4, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/2/29/Baron_Blade_Mad_Bomber_Standard_Front.png"
+      "photo": "https://i.imgur.com/afP1FUv.jpg"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage, and heals himself for 4 HP.",
       "func": ["init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)", "init.restoreHp(4, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/2/29/Baron_Blade_Mad_Bomber_Standard_Front.png"
+      "photo": "https://i.imgur.com/afP1FUv.jpg"
     },
     {
       "name": "Hasten Doom",
       "type": "One-Shot",
       "desc": "Baron Blade deals each hero target 2 damage, and heals himself for 4 HP.",
       "func": ["init.dealDamage(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)", "init.restoreHp(4, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/2/29/Baron_Blade_Mad_Bomber_Standard_Front.png"
+      "photo": "https://i.imgur.com/afP1FUv.jpg"
     },
     {
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
       "func": ["init.preventDamage(1, roomGame.villain.villain)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Blade%20splash.png"
+      "photo": "https://i.imgur.com/Ml18vdl.jpg"
     },
     {
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
       "func": ["init.preventDamage(1, roomGame.villain.villain)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Blade%20splash.png"
+      "photo": "https://i.imgur.com/Ml18vdl.jpg"
     }, 
     {
       "name": "Living Force Field",
       "type": "Ongoing",
       "desc": "Reduce damage dealt to Baron Blade by 1.",
       "func": ["init.preventDamage(1, roomGame.villain.villain)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Blade%20splash.png"
+      "photo": "https://i.imgur.com/Ml18vdl.jpg"
     }, 
     {
       "name": "Flesh-Repair Nanites",
       "type": "One-Shot",
       "desc": "Baron Blade regains 10 HP.",
       "func": ["init.restoreHp(10, roomGame.villain.villain)"],
-      "photo": "https://ssl-static.libsyn.com/p/assets/8/3/b/d/83bdf10e6f517135/e3_BaronBlade.jpg"
+      "photo": "https://i.imgur.com/ARl1hqH.jpg"
     },
     {
       "name": "Flesh-Repair Nanites",
       "type": "One-Shot",
       "desc": "Baron Blade regains 10 HP.",
       "func": ["init.restoreHp(10, roomGame.villain.villain)"],
-      "photo": "https://ssl-static.libsyn.com/p/assets/8/3/b/d/83bdf10e6f517135/e3_BaronBlade.jpg"
+      "photo": "https://i.imgur.com/ARl1hqH.jpg"
     },    
     {
       "name": "Flesh-Repair Nanites",
       "type": "One-Shot",
       "desc": "Baron Blade regains 10 HP.",
       "func": ["init.restoreHp(10, roomGame.villain.villain)"],
-      "photo": "https://ssl-static.libsyn.com/p/assets/8/3/b/d/83bdf10e6f517135/e3_BaronBlade.jpg"
+      "photo": "https://i.imgur.com/ARl1hqH.jpg"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Baron%20Blade%20splash.png"
+      "photo": "https://i.imgur.com/4yII7Sr.jpg"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Baron%20Blade%20splash.png"
+      "photo": "https://i.imgur.com/4yII7Sr.jpg"
     },
     {
       "name": "Blade Battalion",
       "type": "Minion",
       "desc": "At the end of the villain turn, this card deals 5 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageMaxHp(5, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://sentinelsofthemultiverse.com/sites/sentinelsofthemultiverse.com/files/cards/images/Baron%20Blade%20splash.png"
+      "photo": "https://i.imgur.com/4yII7Sr.jpg"
     },
     {
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is protected from next 5 damage he would otherwise take.",
       "func": ["init.increaseMaxHp(5, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/7/71/Tacticsblade.png"
+      "photo": "https://i.imgur.com/w40bHg9.jpg"
     },
     {
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is protected from next 5 damage he would otherwise take.",
       "func": ["init.increaseMaxHp(5, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/7/71/Tacticsblade.png"
+      "photo": "https://i.imgur.com/w40bHg9.jpg"
     },
     {
       "name": "Mobile Defense Platform",
       "type": "Device",
       "desc": "Baron Blade is protected from next 5 damage he would otherwise take.",
       "func": ["init.increaseMaxHp(5, roomGame.villain.villain)"],
-      "photo": "https://sentinelswiki.com/images/7/71/Tacticsblade.png"
+      "photo": "https://i.imgur.com/w40bHg9.jpg"
     },
     {
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals 2 damage to the hero target with the lowest HP. Baron Blade deals 4 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageBoth(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://cf.geekdo-images.com/medium/img/bhcVHT-YLNsVMBZpeHVeOwNMPds=/fit-in/500x500/filters:no_upscale()/pic1912457.jpg"
+      "photo": "https://i.imgur.com/GYkd4dD.jpg"
     },
     {
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals 2 damage to the hero target with the lowest HP. Baron Blade deals 4 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageBoth(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://cf.geekdo-images.com/medium/img/bhcVHT-YLNsVMBZpeHVeOwNMPds=/fit-in/500x500/filters:no_upscale()/pic1912457.jpg"
+      "photo": "https://i.imgur.com/GYkd4dD.jpg"
     },
     {
       "name": "Slash and Burn",
       "type": "One-Shot",
       "desc": "Baron Blade deals 2 damage to the hero target with the lowest HP. Baron Blade deals 4 damage to the hero target with the highest HP.",
       "func": ["init.dealDamageBoth(2, roomGame.player1.hero, roomGame.villain.villain, roomGame.player2.hero)"],
-      "photo": "https://cf.geekdo-images.com/medium/img/bhcVHT-YLNsVMBZpeHVeOwNMPds=/fit-in/500x500/filters:no_upscale()/pic1912457.jpg"
+      "photo": "https://i.imgur.com/GYkd4dD.jpg"
     }
   ],
   "charType": "villain"
