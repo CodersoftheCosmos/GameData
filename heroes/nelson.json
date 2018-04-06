@@ -13,7 +13,7 @@
 			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/IjtDC0G.jpg"
+			"photo": "https://i.imgur.com/Ed8CvnT.jpg"
 		},
 		{
 			"name": "Fortitude",
@@ -21,7 +21,7 @@
 			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/IjtDC0G.jpg"
+			"photo": "https://i.imgur.com/Ed8CvnT.jpg"
 		},
 		{
 			"name": "Fortitude",
@@ -29,7 +29,7 @@
 			"desc": "Reduce damage dealt to Dr. N by 1",
 			"func": ["init.preventDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/IjtDC0G.jpg"
+			"photo": "https://i.imgur.com/Ed8CvnT.jpg"
 		},
 		{
 			"name": "Surge of Strength",
@@ -37,7 +37,7 @@
 			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/aYhuyTW.jpg"
+			"photo": "https://i.imgur.com/QZNia82.jpg"
 		},
 		{
 			"name": "Surge of Strength",
@@ -45,7 +45,7 @@
 			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/aYhuyTW.jpg"
+			"photo": "https://i.imgur.com/QZNia82.jpg"
 			
 		},	
 		{
@@ -54,7 +54,7 @@
 			"desc": "Increase damage dealt by Dr. N by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/aYhuyTW.jpg"
+			"photo": "https://i.imgur.com/QZNia82.jpg"
 		},		
 		{
 			"name": "Thokk",
@@ -62,21 +62,21 @@
 			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/5h0aDxt.jpg"
+			"photo": "https://i.imgur.com/71HfFl3.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
-			"photo": "https://i.imgur.com/5h0aDxt.jpg"
+			"photo": "https://i.imgur.com/71HfFl3.jpg"
 		},
 		{
 			"name": "Thokk",
 			"type": "One-Shot",
 			"desc": "Dr. N deals 3 damage to 1 target\nDraw a card",
 			"func": ["init.dealDamage(3, roomGame.villain.villain, roomGame.player2.hero)", "init.drawCard(roomGame.player2)"],
-			"photo": "https://i.imgur.com/5h0aDxt.jpg"
+			"photo": "https://i.imgur.com/71HfFl3.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -84,7 +84,7 @@
 			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 2 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/F1IW5xM.jpg"
+			"photo": "https://i.imgur.com/1QdMCBn.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -92,7 +92,7 @@
 			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/F1IW5xM.jpg"
+			"photo": "https://i.imgur.com/1QdMCBn.jpg"
 		},
 		{
 			"name": "Motivational Charge",
@@ -100,7 +100,7 @@
 			"desc": "Dr. N deals 2 damage to 1 target\nEach hero target regains 1 HP",
 			"func": ["init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)", "init.dealDamage(2, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/F1IW5xM.jpg"
+			"photo": "https://i.imgur.com/1QdMCBn.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
@@ -108,15 +108,7 @@
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero, roomGame.player1.hero)", "init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/xyafdxi.jpg"
-		},
-		{
-			"name": "Inspiring Presence",
-			"type": "Ongoing",
-			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
-			"func": ["init.increaseDamage(1, roomGame.player2.hero, roomGame.player1.hero)", "init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)"],
-			"limited": "true",
-			"photo": "https://i.imgur.com/xyafdxi.jpg"
+			"photo": "https://i.imgur.com/Winc9yW.jpg"
 		},
 		{
 			"name": "Inspiring Presence",
@@ -124,7 +116,15 @@
 			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
 			"func": ["init.increaseDamage(1, roomGame.player2.hero, roomGame.player1.hero)", "init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)"],
 			"limited": "true",
-			"photo": "https://i.imgur.com/xyafdxi.jpg"
+			"photo": "https://i.imgur.com/Winc9yW.jpg"
+		},
+		{
+			"name": "Inspiring Presence",
+			"type": "Ongoing",
+			"desc": "When this card enters play, each hero target regains 1 HP\nIncrease damage dealt by hero targets by 1",
+			"func": ["init.increaseDamage(1, roomGame.player2.hero, roomGame.player1.hero)", "init.restoreHp(1, roomGame.player2.hero, roomGame.player1.hero)"],
+			"limited": "true",
+			"photo": "https://i.imgur.com/Winc9yW.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -132,7 +132,7 @@
 			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/BonElk4.jpg"
+			"photo": "https://i.imgur.com/VLJWIAH.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -140,7 +140,7 @@
 			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/BonElk4.jpg"
+			"photo": "https://i.imgur.com/VLJWIAH.jpg"
 		},
 		{
 			"name": "Back-Fist Strike",
@@ -148,7 +148,7 @@
 			"desc": "Dr. N deals 4 damage to 1 target",
 			"func": ["init.dealDamage(4, roomGame.villain.villain, roomGame.player2.hero)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/BonElk4.jpg"
+			"photo": "https://i.imgur.com/VLJWIAH.jpg"
 		},
 		{
 			"name": "Bolster Allies",
@@ -156,7 +156,7 @@
 			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/KNUZDLU.jpg"
+			"photo": "https://i.imgur.com/ucWjo8z.jpg"
 		},
 		{
 			"name": "Bolster Allies",
@@ -164,7 +164,7 @@
 			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/KNUZDLU.jpg"
+			"photo": "https://i.imgur.com/ucWjo8z.jpg"
 		},
 		{
 			"name": "Bolster Allies",
@@ -172,7 +172,7 @@
 			"desc": "Each hero draws a card",
 			"func": ["init.drawCard(roomGame.player2, roomGame.player1)"],
 			"limited": "false",
-			"photo": "https://i.imgur.com/KNUZDLU.jpg"
+			"photo": "https://i.imgur.com/ucWjo8z.jpg"
 		}
 	],
   "charType": "hero"
